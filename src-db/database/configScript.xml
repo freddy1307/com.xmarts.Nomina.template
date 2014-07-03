@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+  <vector>
+    <versionInfo version="3.0.20852"/>
+    <removeTriggerChange triggerName="SPM_SLABLINES_TRG"/>
+    <removeTriggerChange triggerName="APM_PAYMENTDEL"/>
+    <removeTriggerChange triggerName="APM_PAYMENTDOCU"/>
+    <removeTriggerChange triggerName="APM_PAYMENTEXECUTION"/>
+    <columnDataChange tablename="AD_COLUMN" columnname="AD_PROCESS_ID" pkRow="00DCFCD5BF764AA199D6CD0382EBA007">
+      <oldValue><![CDATA[2F76FA8344D54CBCB75CC7CA75300042]]></oldValue>
+      <newValue><![CDATA[23651C8466DC429C8EDD357CC97B5608]]></newValue>
+    </columnDataChange>
+    <columnDataChange tablename="AD_COLUMN" columnname="AD_VAL_RULE_ID" pkRow="1D951D7E63C2406FBF9E402350092AF4">
+      <oldValue><![CDATA[3CB5359B434C40F293DBD80AC319D66F]]></oldValue>
+      <newValue/>
+    </columnDataChange>
+    <columnDataChange tablename="AD_COLUMN" columnname="AD_REFERENCE_ID" pkRow="36E374E0AE2241919DE01E5F8F60D9D3">
+      <oldValue><![CDATA[11]]></oldValue>
+      <newValue><![CDATA[22]]></newValue>
+    </columnDataChange>
+    <columnDataChange tablename="AD_COLUMN" columnname="AD_REFERENCE_ID" pkRow="477DC66FF7F149F59B954BE480C18F0F">
+      <oldValue><![CDATA[11]]></oldValue>
+      <newValue><![CDATA[22]]></newValue>
+    </columnDataChange>
+    <columnDataChange tablename="AD_COLUMN" columnname="AD_REFERENCE_ID" pkRow="86BCD313F0B449439AF09678C597F1D3">
+      <oldValue><![CDATA[800008]]></oldValue>
+      <newValue><![CDATA[22]]></newValue>
+    </columnDataChange>
+    <columnDataChange tablename="AD_COLUMN" columnname="FIELDLENGTH" pkRow="86BCD313F0B449439AF09678C597F1D3">
+      <oldValue><![CDATA[2]]></oldValue>
+      <newValue><![CDATA[10]]></newValue>
+    </columnDataChange>
+    <columnDataChange tablename="AD_COLUMN" columnname="SQLLOGIC" pkRow="86BCD313F0B449439AF09678C597F1D3">
+      <oldValue/>
+      <newValue><![CDATA[SELECT sum(ap.paidamtcambio) FROM apm_payment_v ap WHERE ap.apm_budget_id=apm_budget_id]]></newValue>
+    </columnDataChange>
+    <columnDataChange tablename="AD_COLUMN" columnname="AD_REFERENCE_ID" pkRow="880F89CDD55A41DA95ADF3E382E20179">
+      <oldValue><![CDATA[800008]]></oldValue>
+      <newValue><![CDATA[22]]></newValue>
+    </columnDataChange>
+    <columnDataChange tablename="AD_COLUMN" columnname="DEFAULTVALUE" pkRow="880F89CDD55A41DA95ADF3E382E20179">
+      <oldValue><![CDATA[0.00]]></oldValue>
+      <newValue/>
+    </columnDataChange>
+    <columnDataChange tablename="AD_COLUMN" columnname="SQLLOGIC" pkRow="880F89CDD55A41DA95ADF3E382E20179">
+      <oldValue/>
+      <newValue><![CDATA[SELECT sum(ap.amountcambio) FROM apm_payment_v ap WHERE ap.apm_budget_id=apm_budget_id]]></newValue>
+    </columnDataChange>
+    <columnDataChange tablename="AD_COLUMN" columnname="AD_REFERENCE_ID" pkRow="B65A0177DA694485BEB40EB963EF19F7">
+      <oldValue><![CDATA[11]]></oldValue>
+      <newValue><![CDATA[22]]></newValue>
+    </columnDataChange>
+    <columnDataChange tablename="AD_COLUMN" columnname="FIELDLENGTH" pkRow="B65A0177DA694485BEB40EB963EF19F7">
+      <oldValue><![CDATA[2]]></oldValue>
+      <newValue><![CDATA[10]]></newValue>
+    </columnDataChange>
+    <columnDataChange tablename="AD_COLUMN" columnname="AD_CALLOUT_ID" pkRow="B65A0177DA694485BEB40EB963EF19F7">
+      <oldValue/>
+      <newValue><![CDATA[F4E759E65B914304B46D6F664C070859]]></newValue>
+    </columnDataChange>
+    <columnDataChange tablename="AD_MODULE" columnname="VERSION" pkRow="172F00EAB15B46F69A10CD349E8D310B">
+      <oldValue><![CDATA[1.0.0]]></oldValue>
+      <newValue><![CDATA[1.0.2]]></newValue>
+    </columnDataChange>
+    <columnDataChange tablename="AD_MODULE" columnname="LICENSE" pkRow="172F00EAB15B46F69A10CD349E8D310B">
+      <oldValue><![CDATA[.]]></oldValue>
+      <newValue><![CDATA[Licensed under the Openbravo Public License version 1.1.]]></newValue>
+    </columnDataChange>
+    <columnDataChange tablename="AD_MODULE" columnname="AUTHOR" pkRow="172F00EAB15B46F69A10CD349E8D310B">
+      <oldValue><![CDATA[Grupo Xmarts
+@viernesmx]]></oldValue>
+      <newValue><![CDATA[Luis Alfredo Valencia Diaz
+Programador Grupo Xmarts]]></newValue>
+    </columnDataChange>
+    <columnDataChange tablename="AD_MODULE" columnname="VERSION" pkRow="3D892B09B3D54311B30B441FCA4816DC">
+      <oldValue><![CDATA[1.0.2]]></oldValue>
+      <newValue><![CDATA[1.0.4]]></newValue>
+    </columnDataChange>
+    <columnDataChange tablename="AD_MODULE" columnname="VERSION" pkRow="5E255BC1F1E84B5DBC6B22A5F1249FA3">
+      <oldValue><![CDATA[1.0.1]]></oldValue>
+      <newValue><![CDATA[1.0.6]]></newValue>
+    </columnDataChange>
+    <columnDataChange tablename="AD_MODULE" columnname="AUTHOR" pkRow="5E255BC1F1E84B5DBC6B22A5F1249FA3">
+      <oldValue><![CDATA[Grupo Xmarts
+@viernesmx]]></oldValue>
+      <newValue><![CDATA[Luis Alfredo Valencia Diaz
+Programador Grupo Xmarts]]></newValue>
+    </columnDataChange>
+    <columnDataChange tablename="AD_MODULE" columnname="VERSION" pkRow="62571841960C43F286E6FB0FE8EC24A2">
+      <oldValue><![CDATA[1.0.2]]></oldValue>
+      <newValue><![CDATA[1.0.0]]></newValue>
+    </columnDataChange>
+    <columnDataChange tablename="AD_MODULE" columnname="VERSION" pkRow="7FD0DCEDD644471797FF8938ECD19E10">
+      <oldValue><![CDATA[1.0.1]]></oldValue>
+      <newValue><![CDATA[1.0.0]]></newValue>
+    </columnDataChange>
+    <columnDataChange tablename="AD_MODULE" columnname="VERSION" pkRow="FBA5BC1D668D420AA5ACEC29DF74C7B3">
+      <oldValue><![CDATA[1.0.2]]></oldValue>
+      <newValue><![CDATA[1.0.3]]></newValue>
+    </columnDataChange>
+    <columnDataChange tablename="AD_TAB" columnname="ISACTIVE" pkRow="800222">
+      <oldValue><![CDATA[N]]></oldValue>
+      <newValue><![CDATA[Y]]></newValue>
+    </columnDataChange>
+    <columnDataChange tablename="AD_TAB" columnname="ISACTIVE" pkRow="800223">
+      <oldValue><![CDATA[N]]></oldValue>
+      <newValue><![CDATA[Y]]></newValue>
+    </columnDataChange>
+    <columnDataChange tablename="AD_TAB" columnname="AD_PROCESS_ID" pkRow="2DD6F1E2CAE0456AA9797A1D627BFF5E">
+      <oldValue><![CDATA[22A42F8D6145430F8B6C808B07B9DC85]]></oldValue>
+      <newValue><![CDATA[EDE7C191132648B98035B441A6E29FE2]]></newValue>
+    </columnDataChange>
+    <columnDataChange tablename="AD_FIELD" columnname="DISPLAYLOGIC" pkRow="1083">
+      <oldValue><![CDATA[@DocStatus@!'VO'&@DocStatus@!'CL']]></oldValue>
+      <newValue><![CDATA[@DocStatus@!'VO'&@DocStatus@!'CL' & @EM_AUTH_AUTHORIZATION2@='Approved' & @EM_AUTH_AUTHORIZATION1@='Approved' ]]></newValue>
+    </columnDataChange>
+    <columnDataChange tablename="AD_FIELD" columnname="DISPLAYLOGIC" pkRow="3429">
+      <oldValue/>
+      <newValue><![CDATA[@Auth_Compra2@='Y']]></newValue>
+    </columnDataChange>
+    <columnDataChange tablename="AD_FIELD" columnname="DISPLAYLOGIC" pkRow="1D1FECF20805454793651768430304AE">
+      <oldValue/>
+      <newValue><![CDATA[@NL_ISR@='N' & @NL_ISSRD@='N']]></newValue>
+    </columnDataChange>
+    <columnDataChange tablename="AD_MODULE_DEPENDENCY" columnname="STARTVERSION" pkRow="9BAE3B8620034E14B9693E62B29E6A3E">
+      <oldValue><![CDATA[0.9.0]]></oldValue>
+      <newValue><![CDATA[1.0.6]]></newValue>
+    </columnDataChange>
+  </vector>
